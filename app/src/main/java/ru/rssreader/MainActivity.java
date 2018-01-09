@@ -41,13 +41,13 @@ public class MainActivity extends FragmentActivity {
 
     private List<Section> initSections(){
         List<Section> sections = new ArrayList<>();
-        sections.add(new Section("Политика", "http://k.img.com.ua/rss/ru/politics.xml", R.drawable.conference));
-        sections.add(new Section("Экономика", "http://k.img.com.ua/rss/ru/economics.xml", R.drawable.moneybox));
-        sections.add(new Section("Технологии", "http://k.img.com.ua/rss/ru/technews.xml", R.drawable.keyboard));
-        sections.add(new Section("Стиль", "http://k.img.com.ua/rss/ru/lifestyle.xml", R.drawable.hairbrush));
-        sections.add(new Section("Культура", "http://k.img.com.ua/rss/ru/culture.xml", R.drawable.psyhology));
-        sections.add(new Section("Спорт", "http://k.img.com.ua/rss/ru/sport.xml", R.drawable.swimming));
-        sections.add(new Section("Кино", "http://k.img.com.ua/rss/ru/cinema.xml", R.drawable.film));
+        sections.add(new Section("Политика", "http://k.img.com.ua/rss/ru/politics.xml", R.drawable.politics));
+        sections.add(new Section("Экономика", "http://k.img.com.ua/rss/ru/economics.xml", R.drawable.economics));
+        sections.add(new Section("Технологии", "http://k.img.com.ua/rss/ru/technews.xml", R.drawable.technology));
+        sections.add(new Section("Стиль", "http://k.img.com.ua/rss/ru/lifestyle.xml", R.drawable.lifestyle));
+        sections.add(new Section("Культура", "http://k.img.com.ua/rss/ru/culture.xml", R.drawable.culture));
+        sections.add(new Section("Спорт", "http://k.img.com.ua/rss/ru/sport.xml", R.drawable.sport));
+        sections.add(new Section("Кино", "http://k.img.com.ua/rss/ru/cinema.xml", R.drawable.cinema));
         sections.add(new Section("Наука", "http://k.img.com.ua/rss/ru/science.xml", R.drawable.science));
         sections.add(new Section("Мода", "http://k.img.com.ua/rss/ru/worldabus.xml", R.drawable.fashion));
         return sections;
